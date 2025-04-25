@@ -82,7 +82,7 @@ class Driver {
         
         String sql = "UPDATE driver SET wallet_balance = "+this.wallet.getBalance()+" WHERE id = "+this.id;
         db.updateData(sql);
-        System.out.println("Amount Withdraw Successfully! New balance: $" + wallet.getBalance());
+        System.out.println("Amount Withdraw Successfully! New balance: ₹" + wallet.getBalance());
     }
 
     public void viewBookingHistory() throws ClassNotFoundException {
