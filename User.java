@@ -151,7 +151,7 @@ class User {
                     sql = "UPDATE driver SET status = 0 WHERE id = "+ driverId +"";
                     db.updateData(sql);
 
-                    System.out.println("Booking confirmed! Fare: $" + fare);
+                    System.out.println("Booking confirmed! Fare: ₹" + fare);
                     System.out.println("Driver Name : " + driverName);
                     System.out.println("Vehicle Number : " + veh_no);
                 } else {
